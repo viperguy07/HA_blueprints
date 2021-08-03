@@ -42,7 +42,7 @@ trigger:
   from: "off"
   to: "on"
 condition:
-- condition:
+- condition: time
   after: !input 'time_from'
   before: !input 'time_to'
 action:
